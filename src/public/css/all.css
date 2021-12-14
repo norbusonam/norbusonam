@@ -1,0 +1,31 @@
+* {
+    font-family: monospace;
+    box-sizing: border-box;
+}
+
+.remove-color-link {
+    text-decoration: none;
+    color: black;
+}
+
+.link-in-text {
+    color: gray;
+    text-decoration: none;
+}
+
+.link-in-text:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+/* REMOVE BOOTSTRAP BEHAVIOR */
+
+a:hover {
+    color: black;
+    text-decoration: none;
+}
+
