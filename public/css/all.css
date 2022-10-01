@@ -18,7 +18,7 @@ p {
 }
 
 .link-in-text:hover {
-    color: red;
+    color: orange;
     text-decoration: underline;
 }
 
