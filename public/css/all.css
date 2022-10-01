@@ -48,3 +48,30 @@ a:hover {
         display: none;
     }
 }
+
+@media (prefers-color-scheme: dark) {
+    body {
+        background: black;
+    }
+
+    a:hover {
+        color: whitesmoke;
+    }
+
+    .link-in-text {
+        color: lightgray;
+    }
+
+    .remove-color-link {
+        text-decoration: none;
+        color: whitesmoke;
+    }
+
+    .svg {
+        filter: invert(98%) sepia(5%) saturate(23%) hue-rotate(233deg) brightness(113%) contrast(92%);
+    }
+
+    .section-header {
+        color: whitesmoke;
+    }
+}

@@ -27,3 +27,9 @@
     transform: scaleX(1);
     transform-origin: bottom left;
 }
+
+@media (prefers-color-scheme: dark) {
+    #navbar .nav-link:after {
+        background-color: whitesmoke;
+    }
+}

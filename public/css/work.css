@@ -43,7 +43,7 @@
     border-width: 2px;
     border-color: black;
     border-style: solid;
-    background-color: white;
+    background-color: whitesmoke;
     border-radius: 14px;
     display: flex;
     align-items: center;
@@ -71,7 +71,7 @@
     height: 14px;
     border-radius: 50%;
     z-index: 10;
-    background: white;
+    background: whitesmoke;
     border: 2px dashed black;
 }
 
@@ -164,5 +164,30 @@
     }
     .timeline .timeline-row:nth-child(even) .timeline-content:after {
         display: none;
+    }
+}
+
+@media (prefers-color-scheme: dark) {
+    .timeline:after {
+        border-right-color: whitesmoke;
+    }
+
+    .timeline-row .timeline-time {
+        color: whitesmoke;
+    }
+
+    .timeline-row .timeline-content {
+        border-color: whitesmoke;
+        background-color: black;
+        color: whitesmoke;
+    }
+
+    .timeline-row .timeline-content:after {
+        background: whitesmoke;
+    }
+    
+    .timeline-row .timeline-content:before {
+        background: black;
+        border-color: whitesmoke;
     }
 }

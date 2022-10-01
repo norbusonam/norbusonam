@@ -24,3 +24,10 @@
 .project-wrapper {
     padding: 16px;
 }
+
+@media (prefers-color-scheme: dark) {
+    .card {
+        border-color: whitesmoke;
+        color: whitesmoke;
+    }
+}
