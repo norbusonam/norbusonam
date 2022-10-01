@@ -6,6 +6,7 @@
     padding: 20px;
     text-align: center;
     transition: transform 150ms;
+    height: 100%;
 }
 
 .card:hover {
