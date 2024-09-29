@@ -13,7 +13,22 @@
   align-items: center;
   justify-content: center;
   gap: 3rem;
+  animation: blurIn 0.8s forwards;
+  opacity: 0;
 }
+
+@keyframes blurIn {
+  0% {
+    scale: 0.96;
+    filter: blur(4px);
+      opacity: 0;
+  }
+  100% {
+    filter: blur(0);
+    opacity: 1;
+  }
+}
+
 
 #link-container {
   display: flex;
